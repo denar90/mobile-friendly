@@ -1,8 +1,13 @@
+[![Build Status](https://travis-ci.org/denar90/mobile-friendly.svg?branch=master)](https://travis-ci.org/denar90/mobile-friendly)
+
 # Mobile-Friendly Test API for Node.js
 
 > Test how easily a visitor can use your page on a mobile device. Just enter a page URL to see how your page scores.
 
 CLI tool and lib to gather results about mobile friendly site using [Mobile-Friendly Test API](https://search.google.com/search-console/mobile-friendly) _IN BETA_.
+
+![2 mc administrator administrators-macbook-pro local ---localproject-brunch original bash 2017-02-02 01-21-38](https://cloud.githubusercontent.com/assets/6231516/22531406/559866fa-e8e9-11e6-99ee-cfa385869284.png)
+
 
 ### Install
 ```sh
