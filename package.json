@@ -1,0 +1,38 @@
+{
+  "name": "mobile-friendly",
+  "version": "1.0.0",
+  "description": "Mobile-Friendly Test API for Node.js",
+  "main": "index.js",
+  "bin": {
+    "mbfriendly": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denar90/mobile-friendly.git"
+  },
+  "keywords": [
+    "metrics",
+    "performance",
+    "mobile-friendly"
+  ],
+  "author": "denar90",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denar90/mobile-friendly/issues"
+  },
+  "homepage": "https://github.com/denar90/mobile-friendly#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  },
+  "engines": {
+    "node": ">= 6"
+  }
+}
