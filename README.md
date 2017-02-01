@@ -11,9 +11,9 @@ CLI tool and lib to gather results about mobile friendly site using [Mobile-Frie
 
 ### Install
 ```sh
-$ npm install --global mbfriendly
+$ npm install --global mobile-friendly
 # or
-$ npm install --save mbfriendly
+$ npm install --save mobile-friendly
 ```
 
 ### CLI Usage
