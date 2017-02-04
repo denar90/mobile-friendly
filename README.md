@@ -11,9 +11,9 @@ CLI tool and lib to gather results about mobile friendly site using [Mobile-Frie
 
 ### Install
 ```sh
-$ npm install --global mbfriendly
+$ npm install --global mobile-friendly
 # or
-$ npm install --save mbfriendly
+$ npm install --save mobile-friendly
 ```
 
 ### CLI Usage
@@ -43,6 +43,8 @@ mbfriendly http://example.com/ --requestScreenshot
 ```
 
 Read more about [Mobile-Friendly Test API](https://developers.google.com/webmaster-tools/search-console-api/reference/rest/v1/urlTestingTools.mobileFriendlyTest/run)
+
+Get Google API key - https://developers.google.com/webmaster-tools/search-console-api/v1/configure
 
 ### API
 
