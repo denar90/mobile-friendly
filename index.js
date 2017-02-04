@@ -59,7 +59,8 @@ class MobileFriendly {
 
       request.post(options, (err, data) => {
         const body = JSON.parse(data.body);
-        if (err) reject(err || new Error(`Responded with ${data.statusCode} code`));
+        if (err || body.error)
+          return reject(err || new Error(body.error.message));
 
         if (this.json) {
           process.stdout.write(data.body);
@@ -67,7 +68,7 @@ class MobileFriendly {
           this.showResults(body);
         }
 
-        resolve(body);
+        return resolve(body);
       });
     });
   }
