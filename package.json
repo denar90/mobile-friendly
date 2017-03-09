@@ -1,6 +1,6 @@
 {
   "name": "mobile-friendly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mobile-Friendly Test API for Node.js",
   "main": "index.js",
   "bin": {
